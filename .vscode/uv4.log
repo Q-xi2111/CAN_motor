@@ -1,8 +1,20 @@
 *** Using Compiler 'V6.24', folder: 'D:\keil5\ARM\ARMCLANG\Bin'
 Build target 'CAN_MOTOR'
+../Core/Src/main.c(120): error: use of undeclared identifier 'torque'
+  120 |                 if(torque>1000){
+      |                    ^
+../Core/Src/main.c(121): error: use of undeclared identifier 'torque'
+  121 |                         torque=0;
+      |                         ^
+../Core/Src/main.c(123): error: use of undeclared identifier 'torque'
+  123 |                 torque++;
+      |                 ^
+../Core/Src/main.c(124): error: use of undeclared identifier 'torque'
+  124 |                 usart_1_printf("%d",torque);
+      |                                     ^
+4 errors generated.
 compiling main.c...
-linking...
-Program Size: Code=4760 RO-data=440 RW-data=12 ZI-data=1684  
-FromELF: creating hex file...
-"CAN_MOTOR\CAN_MOTOR.axf" - 0 Error(s), 0 Warning(s).
+compiling can_file.c...
+"CAN_MOTOR\CAN_MOTOR.axf" - 4 Error(s), 0 Warning(s).
+Target not created.
 Build Time Elapsed:  00:00:01

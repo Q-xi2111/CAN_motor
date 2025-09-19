@@ -22,4 +22,5 @@ can_motor/can_file.o: ..\User\can_file.c ..\User\can_file.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
-  ..\Core\Inc\can.h ..\Core\Inc\gpio.h
+  ..\Core\Inc\can.h ..\Core\Inc\gpio.h ..\User\Serial.h \
+  ..\Core\Inc\dma.h ..\Core\Inc\usart.h
