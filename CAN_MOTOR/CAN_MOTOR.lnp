@@ -4,6 +4,7 @@
 "can_motor\gpio.o"
 "can_motor\can.o"
 "can_motor\dma.o"
+"can_motor\tim.o"
 "can_motor\usart.o"
 "can_motor\stm32f4xx_it.o"
 "can_motor\stm32f4xx_hal_msp.o"
